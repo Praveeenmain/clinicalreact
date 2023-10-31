@@ -1,0 +1,132 @@
+
+.clinical-page-container {
+    background-size: cover;
+    background-color: aliceblue;
+    margin-top: -29px;
+    padding: 45px;
+}
+
+.clinical-heading {
+    font-size: 35px;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.get-data-button {
+    width: 125px;
+    background-color: transparent;
+    margin-left: 15px;
+}
+
+.list-container {
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    margin-left: -40px;
+}
+
+.Loader-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.medical-condition {
+    font-size: 25px;
+    font-family: "Roboto";
+    color: black;
+}
+
+.studies {
+    font-size: 20px;
+    font-family: "Roboto";
+    color: black;
+}
+.failure-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.failure-image{
+    height:600px;
+    width:800px;
+}
+.retry-button{
+    height:30px;
+    width:120px;
+    background-color:skyblue;
+    border:0px;
+    color:black;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .failure-image {
+        height: auto; 
+        width: 100%;
+    }
+
+    .retry-button {
+        height: 25px;
+        width: 100px;
+    }
+    .clinical-heading {
+        font-size: 28px;
+    }
+
+    .get-data-button {
+        width: 100px;
+    }
+
+    .list-container {
+        width: 100%;
+        padding: 15px; 
+    }
+
+    .Loader-container {
+        margin-top: 150px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .failure-image {
+        height: auto; 
+        width: 100%;
+    }
+
+    .retry-button {
+        height: 20px;
+        width: 90px;
+    }
+
+    .clinical-heading {
+        font-size: 24px;
+    }
+
+    .get-data-button {
+        width: 90px;
+    }
+
+    .list-container {
+        width: 100%;
+        padding: 10px; 
+    }
+
+    .Loader-container {
+        margin-top: 100px; 
+    }
+}
